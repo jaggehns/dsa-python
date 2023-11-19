@@ -91,7 +91,7 @@ for idx, element in enumerate(array):
     
     - This forms a circular loop in the circular linked list.
 
-    - Circular linked lista can either be singly or doubly-linked lists.
+    - Circular linked lists can either be singly or doubly-linked lists.
 
 <br />
 <img width="624" alt="Screenshot 2023-11-20 at 12 51 46 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/b52cee79-a4f3-4135-be2d-8d8c4e06f8c0">
