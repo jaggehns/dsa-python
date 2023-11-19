@@ -11,6 +11,10 @@
 
 - [Data Structures](#data-structures)
   - [Array](#array)
+  - [Linked List](#linked-list)
+      - [Singly Linked List](#singly-linked-list)
+      - [Doubly Linked List](#doubly-linked-list)
+      - [Circular Linked List](#circular-linked-list)
 ---
 
 ## Data Structures
@@ -40,4 +44,68 @@ array.insert(7,0) # need to reassign indexes
 for idx, element in enumerate(array):
     if element == 10:
         print("index position: ", idx)
-``` 
+```
+---
+
+### Linked List
+
+    - A linked list is a linear data structure that stores a collection of data elements dynamically.
+    
+    - Nodes represent data elements, and links or pointers connect each node.
+    
+    - Each node consists of two fields, 
+      - the information stored in a linked list
+      - a pointer that stores the address of its next node.
+
+    - The first node is the Head, and the last node is the Tail
+  
+<br />
+<img width="624" alt="Screenshot 2023-11-20 at 12 27 24 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/fa4b913d-0516-4095-94e6-5d032bf2597b">
+<br /><br />
+
+#### Singly Linked List
+
+    - A singly linked list is the most common type of linked list. 
+    
+    - Each node has data and an address field that contains a reference to the next node.
+
+    - The Tail node points to None
+
+<br />
+<img width="624" alt="Screenshot 2023-11-20 at 12 45 03 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/30d1fb8a-923c-4e07-92f7-e0af0e4c36b4">
+<br /><br />
+
+#### Doubly Linked List
+
+    - Each node stores the data and the reference to the previous & next value. 
+    
+    - Thus, you can traverse in both directions.
+
+<br />
+<img width="624" alt="Screenshot 2023-11-20 at 12 48 34 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/d08ced6d-aeab-4dc3-a629-40208bc84c12">
+<br /><br />
+
+#### Circular Linked List
+
+    - In a circular linked list, the last node is connected with the first node. 
+    
+    - This forms a circular loop in the circular linked list.
+
+    - Circular linked lista can either be singly or doubly-linked lists.
+
+<br />
+<img width="624" alt="Screenshot 2023-11-20 at 12 51 46 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/b52cee79-a4f3-4135-be2d-8d8c4e06f8c0">
+<br /><br />
+
+- Linked list complexities are shown below:
+
+```
+Accessing i-th node - O(n) - we need to traverse the list to find the node
+
+Traverse all nodes - O(n)
+
+Insert/Delete at known element - O(1)
+
+Insert/Delete at unknown element - O(n) - need to traverse the list
+
+```
