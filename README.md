@@ -15,6 +15,8 @@
       - [Singly Linked List](#singly-linked-list)
       - [Doubly Linked List](#doubly-linked-list)
       - [Circular Linked List](#circular-linked-list)
+  - [Stack](#stack)
+  - [Queue](#queue)
 ---
 
 ## Data Structures
@@ -97,7 +99,7 @@ for idx, element in enumerate(array):
 <img width="624" alt="Screenshot 2023-11-20 at 12 51 46 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/b52cee79-a4f3-4135-be2d-8d8c4e06f8c0">
 <br /><br />
 
-- Linked list complexities are shown below:
+- Linked list time complexities are shown below:
 
 ```
 Accessing i-th node - O(n) - we need to traverse the list to find the node
@@ -109,3 +111,54 @@ Insert/Delete at known element - O(1)
 Insert/Delete at unknown element - O(n) - need to traverse the list
 
 ```
+
+---
+
+### Stack
+
+    - A stack is a linear data structure that follows the principle of Last In First Out (LIFO). 
+    
+    - This means the last element inserted inside the stack is removed first.
+  
+<br />
+<img width="624" alt="Screenshot 2023-11-21 at 7 01 58 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/e1b5ebdb-204a-454f-82f5-0e9fc93d5423">
+<br /><br />
+
+- Stack time complexities are shown below
+
+```
+Push - O(1) - insert element into the stack
+
+Pop - O(1) - Remove the last element in the stack
+
+Peek (Top) - O(1) - View the last element in the stack
+
+```
+
+- A stack can be implemented using an array or a linked list
+
+---
+
+### Queue
+
+    - Queue follows the First In First Out (FIFO) rule
+    
+    - The item that goes in first is the item that comes out first.
+  
+<br />
+<img width="624" alt="Screenshot 2023-11-21 at 7 07 45 AM" src="https://github.com/jaggehns/dsa-python/assets/72048640/e8bec3c8-f24a-4000-abdc-83e693356813">
+<br /><br />
+
+- Queue time complexities are shown below
+
+```
+Dequeue - O(1) - Remove the first (front) element in the queue
+
+Enqueue - O(1) - Add an element to the end of the queue
+
+Peek (Top) - O(1) - View the first (front) element in the queue
+
+```
+
+- Queues are implemented using a linked list, as inserting an element at the start is O(1)
+
