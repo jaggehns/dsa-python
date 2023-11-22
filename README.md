@@ -17,6 +17,7 @@
       - [Circular Linked List](#circular-linked-list)
   - [Stack](#stack)
   - [Queue](#queue)
+  - [Hash Table](#hash-table)
 ---
 
 ## Data Structures
