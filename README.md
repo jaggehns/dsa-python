@@ -162,3 +162,45 @@ Peek (Top) - O(1) - View the first (front) element in the queue
 
 - Queues are implemented using a linked list, as inserting an element at the start is O(1)
 
+---
+
+### Hash Table
+
+    - The hash table data structure stores elements in key-value pairs
+    
+    - Key: unique integer that is used for indexing the values
+
+    - Value: data that are associated with keys.
+  
+<br />
+<img width="624" alt="Screenshot 2023-11-22 at 11 46 46 PM" src="https://github.com/jaggehns/dsa-python/assets/72048640/8273767e-6411-4aa9-b563-613f8b2e9814">
+<br /><br />
+
+```
+
+- In a hash table, a new index is processed using the keys
+
+- The element corresponding to that key is stored in the index
+
+- This process is called hashing. Hashing collisions will not be covered here
+
+```
+
+- Hash table time complexities are shown below
+
+```python
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+
+# accessing an entry - O(1)
+dict['Name']
+
+# update existing entry - O(1)
+dict['Age'] = 8
+
+# Add new entry - O(1)
+dict['School'] = "DPS School"
+
+# remove entry - O(1)
+del dict['Name']
+
+```
